@@ -1,6 +1,8 @@
 // import 'Dog.dart';
 // import 'inheritance.dart';
-import 'mixins.dart';
+// import 'mixins.dart';
+
+import 'settersGetters.dart';
 
 void main() {
   // Dog dog1 = new Dog(
@@ -32,8 +34,13 @@ void main() {
   // print(rectangulo.calculateArea());
   // print(rectangulo.calculatePerimeter());
 
-  Pato pato=new Pato();
-  pato.fly();
-  pato.walk();
-  pato.swimm();
+  // Pato pato=new Pato();
+  // pato.fly();
+  // pato.walk();
+  // pato.swimm()
+
+  User Alan=User('Patrick', '123456');
+  Alan.password='123456789';
+  print(Alan.username);
+  print(Alan.password);
 }
